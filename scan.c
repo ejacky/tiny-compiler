@@ -194,7 +194,7 @@ TokenType getToken(void)
          currentToken = reservedLookup(tokenString);
      }
    }
-   if (TraceScan) {
+   if (1) {
      fprintf(listing,"\t%d: ",lineno);
      printToken(currentToken,tokenString);
    }
